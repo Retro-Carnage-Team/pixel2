@@ -3,7 +3,7 @@ package opengl
 import (
 	"math"
 
-	pixel "github.com/Retro-Carnage-Team/pixel2/"
+	pixel "github.com/Retro-Carnage-Team/pixel2"
 )
 
 func intBounds(bounds pixel.Rect) (x, y, w, h int) {

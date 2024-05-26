@@ -6,7 +6,7 @@ import (
 	"image/color"
 	"runtime"
 
-	pixel "github.com/Retro-Carnage-Team/pixel2/"
+	pixel "github.com/Retro-Carnage-Team/pixel2"
 	"github.com/go-gl/gl/v3.3-core/gl"
 	"github.com/go-gl/glfw/v3.3/glfw"
 	"github.com/gopxl/glhf/v2"

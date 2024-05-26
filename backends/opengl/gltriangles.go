@@ -3,7 +3,7 @@ package opengl
 import (
 	"fmt"
 
-	pixel "github.com/Retro-Carnage-Team/pixel2/"
+	pixel "github.com/Retro-Carnage-Team/pixel2"
 	"github.com/gopxl/glhf/v2"
 	"github.com/gopxl/mainthread/v2"
 )
