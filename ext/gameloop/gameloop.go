@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/gopxl/pixel/v2/backends/opengl"
+	"github.com/Retro-Carnage-Team/pixel2/backends/opengl"
 )
 
 type EasyWindow interface {

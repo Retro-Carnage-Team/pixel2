@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/gopxl/pixel/v2"
+	pixel "github.com/Retro-Carnage-Team/pixel2"
 )
 
 // closeEnough will shift the decimal point by the accuracy required, truncates the results and compares them.

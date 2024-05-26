@@ -6,17 +6,17 @@ Revived fork of the original [Pixel](https://github.com/faiface/pixel) library b
 
 
 # Pixel 2
-[![GoDoc](https://godoc.org/github.com/gopxl/pixel/v2?status.svg)](https://godoc.org/github.com/gopxl/pixel/v2)
+[![GoDoc](https://godoc.org/github.com/Retro-Carnage-Team/pixel2/?status.svg)](https://godoc.org/github.com/Retro-Carnage-Team/pixel2/)
 [![Go build status](https://github.com/gopxl/pixel/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/gopxl/pixel/actions/workflows/go.yml?query=branch%3Amain)
 [![Coverage Status](https://coveralls.io/repos/github/gopxl/pixel/badge.svg?branch=main)](https://coveralls.io/github/gopxl/pixel?branch=main)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gopxl/pixel/v2)](https://goreportcard.com/report/github.com/gopxl/pixel/v2) 
+[![Go Report Card](https://goreportcard.com/badge/github.com/Retro-Carnage-Team/pixel2/)](https://goreportcard.com/report/github.com/Retro-Carnage-Team/pixel2/) 
 [![Discord Chat](https://img.shields.io/discord/1158461233121468496)](https://discord.gg/q2DK4MP)  
 
 A hand-crafted 2D game library in Go. Take a look into the [features](#features) to see what it can
 do.
 
 ```
-go get github.com/gopxl/pixel/v2
+go get github.com/Retro-Carnage-Team/pixel2/
 ```
 
 If you are using Modules (Go 1.11 or higher) and want a mutable copy of the source code:
@@ -83,12 +83,12 @@ Here's the list of the main features in Pixel. Although Pixel is still under hea
     [IMDraw](https://github.com/gopxl/pixel/wiki/Drawing-shapes-with-IMDraw) (circles, rectangles,
     lines, ...)
   - Optimized drawing with [Batch](https://github.com/gopxl/pixel/wiki/Drawing-efficiently-with-Batch)
-  - Text drawing with [text](https://godoc.org/github.com/gopxl/pixel/v2/text) package
+  - Text drawing with [text](https://godoc.org/github.com/Retro-Carnage-Team/pixel2//text) package
 - Audio through a separate [Beep](https://github.com/gopxl/beep) library.
 - Simple and convenient API
   - Drawing a sprite to a window is as simple as `sprite.Draw(window, matrix)`
   - Wanna know where the center of a window is? `window.Bounds().Center()`
-  - [...](https://godoc.org/github.com/gopxl/pixel/v2)
+  - [...](https://godoc.org/github.com/Retro-Carnage-Team/pixel2/)
 - Full documentation and tutorial
 - Works on Linux, macOS and Windows
 - Window creation and manipulation (resizing, fullscreen, multiple windows, ...)
@@ -110,7 +110,7 @@ Here's the list of the main features in Pixel. Although Pixel is still under hea
   - Cutting holes into objects
   - Much more...
 - Pixel let's you draw stuff and do your job, it doesn't impose any particular style or paradigm
-- Platform and backend independent [core](https://godoc.org/github.com/gopxl/pixel/v2)
+- Platform and backend independent [core](https://godoc.org/github.com/Retro-Carnage-Team/pixel2/)
 - Core Target/Triangles/Picture pattern makes it easy to create new drawing targets that do
   arbitrarily crazy stuff (e.g. graphical effects)
 - Small codebase, ~5K lines of code, including the backend [glhf](https://github.com/gopxl/glhf/v2)
@@ -160,7 +160,7 @@ The OpenGL version used is **OpenGL 3.3**.
 - See [here](http://www.glfw.org/docs/latest/compile.html#compile_deps) for full details.
 
 **The combination of Go 1.8, macOS and latest XCode seems to be problematic** as mentioned in issue
-[#7](https://github.com/gopxl/pixel/v2/issues/7). This issue is probably not related to Pixel.
+[#7](https://github.com/Retro-Carnage-Team/pixel2//issues/7). This issue is probably not related to Pixel.
 **Upgrading to Go 1.8.1 fixes the issue.**
 
 ## Contributing

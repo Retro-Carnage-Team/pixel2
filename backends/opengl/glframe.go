@@ -1,9 +1,9 @@
 package opengl
 
 import (
+	pixel "github.com/Retro-Carnage-Team/pixel2/"
 	"github.com/gopxl/glhf/v2"
 	"github.com/gopxl/mainthread/v2"
-	"github.com/gopxl/pixel/v2"
 )
 
 // GLFrame is a type that helps implementing OpenGL Targets. It implements most common methods to

@@ -3,9 +3,9 @@ package opengl
 import (
 	"time"
 
+	pixel "github.com/Retro-Carnage-Team/pixel2/"
 	"github.com/go-gl/glfw/v3.3/glfw"
 	"github.com/gopxl/mainthread/v2"
-	"github.com/gopxl/pixel/v2"
 )
 
 // Pressed returns whether the Button is currently pressed down.

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"image/color"
 
+	pixel "github.com/Retro-Carnage-Team/pixel2/"
 	"github.com/go-gl/mathgl/mgl32"
 	"github.com/gopxl/glhf/v2"
 	"github.com/gopxl/mainthread/v2"
-	"github.com/gopxl/pixel/v2"
 	"github.com/pkg/errors"
 )
 

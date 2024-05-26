@@ -9,9 +9,9 @@ import (
 	"golang.org/x/image/font/basicfont"
 	"golang.org/x/image/font/gofont/goregular"
 
+	pixel "github.com/Retro-Carnage-Team/pixel2"
+	"github.com/Retro-Carnage-Team/pixel2/ext/text"
 	"github.com/golang/freetype/truetype"
-	"github.com/gopxl/pixel/v2"
-	"github.com/gopxl/pixel/v2/ext/text"
 )
 
 func TestClear(t *testing.T) {

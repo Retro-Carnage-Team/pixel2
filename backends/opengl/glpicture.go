@@ -3,9 +3,9 @@ package opengl
 import (
 	"math"
 
+	pixel "github.com/Retro-Carnage-Team/pixel2/"
 	"github.com/gopxl/glhf/v2"
 	"github.com/gopxl/mainthread/v2"
-	"github.com/gopxl/pixel/v2"
 )
 
 // GLPicture is a pixel.PictureColor with a Texture. All OpenGL Targets should implement and accept

@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/gopxl/pixel/v2"
-	"github.com/gopxl/pixel/v2/ext/imdraw"
+	pixel "github.com/Retro-Carnage-Team/pixel2"
+	"github.com/Retro-Carnage-Team/pixel2/ext/imdraw"
 )
 
 func BenchmarkPush(b *testing.B) {

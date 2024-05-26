@@ -1,8 +1,8 @@
 package opengl
 
 import (
+	pixel "github.com/Retro-Carnage-Team/pixel2/"
 	"github.com/go-gl/glfw/v3.3/glfw"
-	"github.com/gopxl/pixel/v2"
 )
 
 var joystickMapping = map[glfw.Joystick]pixel.Joystick{

@@ -5,7 +5,7 @@ import (
 	"image/color"
 	"testing"
 
-	"github.com/gopxl/pixel/v2"
+	pixel "github.com/Retro-Carnage-Team/pixel2"
 )
 
 func BenchmarkColorToRGBA(b *testing.B) {
